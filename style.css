@@ -1,0 +1,35 @@
+.start-menu {
+   text-align: center;
+   background-image: url(../Majka-Tereza/slike/page-bg.jpg);
+   color: #eaf0f1;
+   background-size: cover;
+   
+}
+.slika-klasa .klasa-za-sliku {
+ margin-top: 50px;
+}
+.slika-klasa .tekst-klasa h4 {
+    margin-top: 70px;
+    text-align: left;
+}
+.slika-klasa .tekst-klasa p {
+    text-align: left;
+}
+.slika-klasa .tekst-klasa  h3 {
+    color: #c88e96;
+    background-color: #eaf0f1;
+    width: 180px;;
+    height: 50px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+ 
+    
+}
+.slika-klasa .tekst-klasa  h3:hover {
+    border: 1px solid;
+    background-color: transparent;
+
+    cursor: pointer;
+
+}

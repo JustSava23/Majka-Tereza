@@ -1,0 +1,45 @@
+.reflux-me-section {
+    background-color: brown;
+    text-align: center;
+    padding-top: 25%;
+    color: #fff;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+.reflux-me-section img {
+    width: 75%;
+    border-radius: 60%;
+    margin-bottom: 10%;
+}
+.reflux-me-section h1 {
+    font-size: 25px;
+}
+.reflux-me-section h5 {
+    font-size: 15px;
+}
+.reflux-me-section ul {
+    margin-top: 15%;
+    list-style: none;
+}
+.reflux-me-section ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid #fff;
+    margin-left: -14%;
+    padding: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,9 @@
    background-image: url(../Majka-Tereza/slike/page-bg.jpg);
    color: #eaf0f1;
    background-size: cover;
-   
+}
+.start-menu p {
+    font-size: 20px;
 }
 .slika-klasa .klasa-za-sliku {
  margin-top: 50px;
@@ -15,7 +17,7 @@
 .slika-klasa .tekst-klasa p {
     text-align: left;
 }
-.slika-klasa .tekst-klasa  h3 {
+.slika-klasa .tekst-klasa h3 {
     color: #c88e96;
     background-color: #eaf0f1;
     width: 180px;;
@@ -23,58 +25,244 @@
   padding-top: 5px;
   padding-left: 5px;
   padding-bottom: 5px;
- 
-    
+  transition: 0.6s;
 }
 .slika-klasa .tekst-klasa  h3:hover {
     border: 1px solid;
     background-color: transparent;
-
     cursor: pointer;
+}
+.treci-meni  {
+    margin-top: 200px;
+    text-align: left;
+    }
+    .treci-meni h3 {
+        color: #c88e96;
+        background-color: #eaf0f1;
+        width: 180px;;
+        height: 50px;
+      padding-top: 5px;
+      padding-left: 20px;
+      transition: 0.6s;
+    }
+    .treci-meni  h3:hover {
+        border: 1px solid;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .donji-meni {
+        background-image: url(../Majka-Tereza/slike/page-bg2.jpg);
+        color: #e5e6e3 ;
+        text-align: center;
+        background-size: cover;
+    }
+     
+    .donji-meni h4 {
+       padding-top: 100px;
+    }
+   .hard-menu .prva-slika  {
+    margin-top: 50px;
+border: 1px solid #3e3a39;
+background-color: rgba(97, 97, 97, 0.3);
+width:600px;
+padding-top: 60px;
+position: relative;
+left: 50px;
+padding-left: -20px;
+height: 400px;
 
-}
-.reflux-me-section {
-    background-color: brown;
+   }
+   .hard-menu .druga-slika {
+    margin-top: 50px;
+    border: 1px solid #3e3a39;
+    background-color: rgba(97, 97, 97, 0.3);
+   width: 600px;
+   margin-left: 20px;
+   padding-top: 60px;
+   position: relative;
+left: 50px;
+   }
+   .hard-menu .prva-slika h4 {
+    padding-top: 20px;
+    padding-left: -50px;
     text-align: center;
-    padding-top: 25%;
+    margin-left: -60px;
+   }
+   .hard-menu .prva-slika p {
+ font-size: 20px;
+   text-align: left;
+   width: 500px;
+   padding-left: 45px;
+   }
+   .hard-menu .druga-slika h4 {
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -35px;
+
+   }
+   .hard-menu .druga-slika p {
+    width: 500px;
+    font-size: 20px;
+    text-align: left;
+    margin-left:  50px;;
+   }
+   .hard-menu .druga-slika img {
+    margin-left: -130px;
+   }
+   .hard-menu .prva-slika img {
+    margin-left: -130px;
+   }
+   .hard-meni2 {
+    background-image: url(./slike/page-bg.jpg);
+    margin-top: -50px;
+    background-size: cover;
+    height: 1500px;
+   }
+   .hard-meni2 .treca-slika{
+    border-bottom: 5px solid #67686c;
+    position: relative;
+    top: 70px;
+border: 1px solid #3e3a39;
+background-color: rgba(97, 97, 97, 0.3);
+width:600px;
+padding-top: 60px;
+position: relative;
+left: 50px;
+padding-left: -20px;
+height: 400px;
+   }
+   .hard-meni2 .treca-slika h4 {
+    margin-left: 50px;
+    color: #fff ;
+   }
+   .hard-meni2 .treca-slika p {
+    text-align: left;
+    color: #fff ;
+    margin-left: 50px;
+    font-size: 20px;
+    width: 400px;
+   }
+   .hard-meni2 .treca-slika img {
+    padding-left: 50px;
+    padding-bottom: 20px;
+   }
+   .hard-meni2 .cetvrta-slika {
+    
+    position: relative;
+    top: 70px;
+border: 1px solid #3e3a39;
+background-color: rgba(97, 97, 97, 0.3);
+width:600px;
+padding-top: 60px;
+position: relative;
+left: 70px;
+padding-left: -20px;
+height: 400px;
+   }
+   .hard-meni2 .cetvrta-slika img {
+    padding-left: 50px;
+    padding-bottom: 20px;
+   }
+   .hard-meni2 .cetvrta-slika h4 {
+    margin-left: 50px;
+    color: #fff ;
+   }
+   .hard-meni2 .cetvrta-slika p {
+    text-align: left;
+    color: #fff ;
+    margin-left: 50px;
+    font-size: 20px;
+    width: 400px;
+    
+   }
+   .hard-meni2 {
+    
+    
+   }
+   .work-section  h4{
+margin-top: -15px;
+    position: relative;
+    top: -800px;
+    text-align: center;
     color: #fff;
-    margin-left: 0%;
-    padding-left: 0%;
-}
-.reflux-me-section img {
-    width: 75%;
-    border-radius: 60%;
-    margin-bottom: 10%;
-}
-.reflux-me-section h1 {
-    font-size: 25px;
-}
-.reflux-me-section h5 {
-    font-size: 15px;
-}
-.reflux-me-section ul {
-    margin-top: 15%;
-    list-style: none;
-}
-.reflux-me-section ul li a{
+    font-size: 40px;
+    
+    
+   }
+   .work-section p {
+    padding-top: 20px;
+    color: #fff;
+    position: relative;
+    top: -780px;
+    text-align: center;
+   }
+   .work-section hr {
+    margin-bottom: 50px;
+    border-top: 3px solid #67686c;
+    position: relative;
+    top: -800px;
+    width: 1200px;
+    left: 350px;
+
+   }
+   .work-section .linija-klasa hr {
+    margin-top: -40px;
+    border-top: 3px solid #750c0c;
+    position: center    ;
+    width: 70px;
+    left: 920px;
+    top: -760px;
+
+   }
+   .work-section ul li {
+    display: inline-block;
+    position: relative;
+    left: 760px;
+    top: -750px;
+    color: #fff;
+    padding-left: 30px;
+    
+   }
+   .work-section ul li a {
     text-decoration: none;
     color: #fff;
-    text-align: center;
-    display: block;
-    border-bottom: 1px solid #fff;
-    margin-left: -14%;
-    padding: 4%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
+   
+   }
+   .work-section ul li a:hover{
+    color: #4b0f1a;
+text-decoration: underline;
     
+   }
+   .work-section .retard-section {
+    position: relative;
+    top:-250px ;
+    position: relative;
+
+   }
+   .work-section .retard-section img{
+    position: relative;
+    top:-300px;
+border: 1px solid #535a62;
+   }
+
+   .work-section .retard-section  {
+    background-image: url(../Majka-Tereza/slike/page-bg.jpg);
+  background-size: cover;
+  height: 1700px;
+  margin-bottom: 0px;
+  padding-bottom: 0%;
+   }
+   .work-section  {
+    margin-bottom: 0;
+    padding-bottom: 0%;
+   }
+   .kraj-section {
+    position: relative;
+    top: -1800px;
+    margin-bottom: 0px;
+   }
+   .finish-section img {
+    position: relative;
+    top: -1750px;
+   padding-bottom: 0%;
+   }

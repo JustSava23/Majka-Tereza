@@ -1,0 +1,129 @@
+.reflux-me-section {
+    background-color: brown;
+    text-align: center;
+    padding-top: 25%;
+    color: #fff;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+.reflux-me-section img {
+    width: 75%;
+    border-radius: 60%;
+    margin-bottom: 10%;
+}
+.reflux-me-section h1 {
+    font-size: 25px;
+}
+.reflux-me-section h5 {
+    font-size: 15px;
+}
+.reflux-me-section ul {
+    margin-top: 15%;
+    list-style: none;
+}
+.reflux-me-section ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid #fff;
+    margin-left: -13.8%;
+    padding: 4%;
+    transition: 0.6s;
+}
+.reflux-me-section ul li a:hover {
+    background-color: #fff;
+    color: brown;
+}
+.reflux-me-section ul i {
+    text-align: center;
+    padding: 3%;
+    margin-right: 5%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.reflux-me-section ul i:hover {
+    cursor: pointer;
+}
+.reflux-me-section .gornji {
+    margin-top: 15%;
+    padding-top: 10%;
+    border-top: 1px dotted #fff;
+}
+.reflux-me-section .donji {
+    padding-top: 100%;
+    padding-bottom: 20%;
+}
+.contact-me-section {
+    color: #000;
+    text-align: center;
+    margin-top: 20%;
+}
+.contact-me-section h2 {
+    text-transform: capitalize;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px groove red;
+    font-weight: 700;
+    padding-bottom: 1%;
+}
+.contact-me-section p {
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.contact-me-section .dugme {
+    background-color: brown;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    width: 20%;
+    height: 140%;
+    transition: 0.6s;
+    font-weight: 600;
+}
+.contact-me-section .dugme:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: brown;
+    font-weight: 700;
+}
+.contact-me-section textarea {
+    width: 80%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #fff;
+}
+.contact-me-section .prvi-red {
+    margin-bottom: 2%;
+}
+.contact-me-section #subject {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #fff;
+}
+.contact-me-section .prvi-red #name {
+    width: 420px;
+    right: -46px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #fff;
+}
+.contact-me-section .prvi-red #email {
+    width: 420px;
+    position: relative;
+    right: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+

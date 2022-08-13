@@ -250,11 +250,10 @@ border: 1px solid #535a62;
   background-size: cover;
   height: 1700px;
   margin-bottom: 0px;
-  padding-bottom: 0%;
    }
    .work-section  {
     margin-bottom: 0;
-    padding-bottom: 0%;
+
    }
    .kraj-section {
     position: relative;
@@ -264,5 +263,5 @@ border: 1px solid #535a62;
    .finish-section img {
     position: relative;
     top: -1750px;
-   padding-bottom: 0%;
+   
    }
